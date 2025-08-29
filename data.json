@@ -1,0 +1,8 @@
+{
+  "skills": ["HTML", "CSS", "JavaScript", "Node.js", "PHP", "React", "MongoDB"],
+  "projects": [
+    {"title": "Portfolio Website", "description": "A professional resume portfolio built using fullstack development."},
+    {"title": "AI Voice Supermarket", "description": "Prototype of an AI-powered supermarket with voice interactions."},
+    {"title": "Candy Crush Clone", "description": "A fun clone game with custom flowers and animations."}
+  ]
+}

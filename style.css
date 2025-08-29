@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background: #2c3050;
+  background: #2c3e50;
   color: white;
   text-align: center;
   padding: 30px;
@@ -25,31 +25,20 @@ h1 {
   padding: 20px;
   border-radius: 12px;
   width: 80%;
-  box-shadow: 0px 3px 8px rgb(7, 2, 101);
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
 }
 
 .resume-section h2 {
-  border-bottom: 2px solid #7f34db;
+  border-bottom: 2px solid #3498db;
   padding-bottom: 10px;
   margin-bottom: 15px;
 }
 
 .box {
   display: inline-block;
-  background: #349bdb;
-  color: rgb(255, 255, 255);
+  background: #3498db;
+  color: white;
   padding: 8px 12px;
   margin: 5px;
   border-radius: 6px;
   font-weight: bold;
-}
-.box {
-  display: inline-block;
-  background: #3474db;
-  color: rgba(255, 255, 255, 0.975);
-  padding: 8px 12px;
-  margin: 5px;
-  border-radius: 6px;
-  font-weight: bold;
-}
-

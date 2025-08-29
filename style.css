@@ -1,54 +1,63 @@
+/* General styling */
 body {
   font-family: Arial, sans-serif;
-  background: #f4f7fa;
+  margin: 20px;
+  background: #f8f9fa;
   color: #333;
-  margin: 0;
-  padding: 0;
 }
 
 header {
-  background: #2c3050;
-  color: white;
   text-align: center;
-  padding: 30px;
-}
-
-h1 {
-  margin: 0;
-  font-size: 2.5rem;
+  margin-bottom: 30px;
 }
 
 .resume-section {
-  background: white;
-  margin: 20px auto;
-  padding: 20px;
+  margin-bottom: 40px;
+}
+
+/* Skill boxes */
+#skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#skills-box p {
+  background: #007bff;   /* Blue */
+  color: white;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+}
+
+#skills-box p:hover {
+  transform: scale(1.05);
+  background: #0056b3; /* Darker blue */
+}
+
+/* Project boxes */
+#projects-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+#projects-box div {
+  background: #28a745;   /* Green */
+  color: white;
+  padding: 15px;
   border-radius: 12px;
-  width: 80%;
-  box-shadow: 0px 3px 8px rgb(7, 2, 101);
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
 }
 
-.resume-section h2 {
-  border-bottom: 2px solid #7f34db;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
+#projects-box div:hover {
+  transform: translateY(-5px);
+  background: #1e7e34; /* Darker green */
 }
 
-.box {
-  display: inline-block;
-  background: #349bdb;
-  color: rgb(255, 255, 255);
-  padding: 8px 12px;
-  margin: 5px;
-  border-radius: 6px;
-  font-weight: bold;
+#projects-box h3 {
+  margin: 0 0 8px 0;
 }
-.box {
-  display: inline-block;
-  background: #3474db;
-  color: rgba(255, 255, 255, 0.975);
-  padding: 8px 12px;
-  margin: 5px;
-  border-radius: 6px;
-  font-weight: bold;
-}
-
